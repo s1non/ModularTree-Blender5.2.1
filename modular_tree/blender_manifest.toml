@@ -1,0 +1,33 @@
+schema_version = "1.0.0"
+
+id = "modular_tree"
+name = "Modular Tree"
+version = "5.5.2"
+website = "https://github.com/GoodPie/modular_tree"
+tagline = "Procedural node based 3D tree generation"
+maintainer = "GoodPie <brandynbb96@gmail.com>"
+type = "add-on"
+blender_version_min = "4.3.1"
+license = ["SPDX:GPL-3.0-or-later"]
+copyright = ["2021 MaximeHerpin", "2026 Brandyn Britton"]
+tags = ["Mesh", "Add Curve"]
+wheels = [
+    "./wheels/m_tree-5.5.2-cp311-cp311-macosx_11_0_arm64.whl",
+    "./wheels/m_tree-5.5.2-cp311-cp311-win_amd64.whl",
+    "./wheels/m_tree-5.5.2-cp313-cp313-win_amd64.whl",
+    "./wheels/m_tree-5.5.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+    "./wheels/m_tree-5.5.2-cp313-cp313-macosx_11_0_arm64.whl",
+    "./wheels/m_tree-5.5.2-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+]
+platforms = ["windows-x64", "macos-x64", "macos-arm64", "linux-x64"]
+
+[permissions]
+files = "Export pivot painter textures"
+
+
+# BEGIN GENERATED CONTENT.
+# This must not be included in source manifests.
+[build.generated]
+platforms = ["windows-x64"]
+wheels = ["./wheels/m_tree-5.5.2-cp311-cp311-win_amd64.whl", "./wheels/m_tree-5.5.2-cp313-cp313-win_amd64.whl"]
+# END GENERATED CONTENT.
